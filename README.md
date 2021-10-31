@@ -55,6 +55,7 @@ PAN-640 | 0.9011    | 0.8040 | 0.8498  | 0.2883              | 7.6481           
 - [x] SynthText: https://www.robots.ox.ac.uk/~vgg/data/scenetext/
 - [x] MSRA-TD500: http://www.iapr-tc11.org/mediawiki/index.php/MSRA_Text_Detection_500_Database_(MSRA-TD500)
 - [x] ICDAR-2015: https://rrc.cvc.uab.es/
+- [x] Custom_dataset_4_point: id = 1JEbQ0WLS24RHojXp6veyjx1HYZay4Vy6
 
 ## Source
 
