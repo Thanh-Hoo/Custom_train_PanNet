@@ -45,9 +45,9 @@ def get_ann(img, gt_path):
         x1 = np.int(gt[0])
         y1 = np.int(gt[1])
 
-        bbox = [np.int(gt[i]) for i in range(0, 4)]
-        bbox = np.asarray(bbox) + ([x1 * 1.0, y1 * 1.0] * 2)
-        bbox = np.asarray(bbox) / ([w * 1.0, h * 1.0] * 2)
+        bbox = [np.int(gt[i]) for i in range(0, 8)]
+        bbox = np.asarray(bbox) + ([x1 * 1.0, y1 * 1.0] * 4)
+        bbox = np.asarray(bbox) / ([w * 1.0, h * 1.0] * 4)
         #CTW dataset
         # bbox = [np.int(gt[i]) for i in range(0, 28)]
         # bbox = np.asarray(bbox) + ([x1 * 1.0, y1 * 1.0] * 14)
