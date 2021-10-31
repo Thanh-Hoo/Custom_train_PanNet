@@ -1,19 +1,9 @@
+# Refer and 
+Copy and custom of https://github.com/liuch37/pan-pytorch
+
 # Pixel Aggregation Network
 
 This is an unofficial PyTorch re-implementation of paper "Efficient and Accurate Arbitrary-Shaped Text Detection with Pixel Aggregation Network" published in ICCV 2019, with PyTorch >= v1.4.0.
-
-## Task
-
-- [x] Backbone model
-- [x] FPEM model
-- [x] FFM model
-- [x] Integrated model
-- [x] Loss Function
-- [x] Data preprocessing
-- [x] Data postprocessing
-- [x] Training pipeline
-- [x] Inference pipeline
-- [x] Evaluation pipeline
 
 ## Command
 

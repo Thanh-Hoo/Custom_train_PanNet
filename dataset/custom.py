@@ -48,10 +48,6 @@ def get_ann(img, gt_path):
         bbox = [np.int(gt[i]) for i in range(0, 8)]
         bbox = np.asarray(bbox) + ([x1 * 1.0, y1 * 1.0] * 4)
         bbox = np.asarray(bbox) / ([w * 1.0, h * 1.0] * 4)
-        #CTW dataset
-        # bbox = [np.int(gt[i]) for i in range(0, 28)]
-        # bbox = np.asarray(bbox) + ([x1 * 1.0, y1 * 1.0] * 14)
-        # bbox = np.asarray(bbox) / ([w * 1.0, h * 1.0] * 14)
         bboxes.append(bbox)
         words.append(gt[-1].replace("\n",""))
 
