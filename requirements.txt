@@ -1,0 +1,8 @@
+editdistance
+opencv-python
+torch
+torchvision
+pyclipper
+# Cython (optional if want to speed up postprocessing)
+# PIL
+# scipy (for performance evaluation)
