@@ -32,7 +32,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, default='results', help='output folder name')
     parser.add_argument('--model', type=str, required=True, help='model path')
     parser.add_argument('--gpu', type=bool, default=False, help="GPU being used or not")
-    parser.add_argument('--bbox_type', type=str, default='poly', help="bounding box type - poly | rect")
+    parser.add_argument('--bbox_type', type=str, default='rect', help="bounding box type - poly | rect")
 
     opt = parser.parse_args()
     print(opt)
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     trained_model_path = opt.model
     bbox_type = opt.bbox_type
     min_area = 16
-    min_score = 0.88
+    min_score = 0.6
 
     # create dataset
     print("Create dataset......")

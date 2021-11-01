@@ -14,11 +14,11 @@ import os
 import pdb
 import matplotlib.pyplot as plt
 
-ctw_root_dir = './data/'
-ctw_train_data_dir = ctw_root_dir + 'new/train/img/'
-ctw_train_gt_dir = ctw_root_dir + 'new/train/label/'
-ctw_test_data_dir = ctw_root_dir + 'new/val/img/'
-ctw_test_gt_dir = ctw_root_dir + 'new/val/label/'
+ctw_root_dir = './data_pan/'
+ctw_train_data_dir = ctw_root_dir + 'train/img/'
+ctw_train_gt_dir = ctw_root_dir + 'train/label/'
+ctw_test_data_dir = ctw_root_dir + 'val/img/'
+ctw_test_gt_dir = ctw_root_dir + 'val/label/'
 
 def PolyArea(x,y):
     return 0.5*np.abs(np.dot(x,np.roll(y,1))-np.dot(y,np.roll(x,1)))
